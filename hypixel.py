@@ -30,9 +30,9 @@ def get_inventory(raw):
 
 #constants
 name = "Penguujr" #username, my name
-UUID = "7e5a3369ab4141879098ba266078fd32" #usr uuid, my uuid
-DASHED_UUID = "7e5a3369-ab41-4187-9098-ba266078fd32" # user uuid, my uuid
-apikey = "a2ed85d9-049f-405b-8f52-e94987f07a71" # user api key, my api key
+UUID = "" #usr uuid, enter your uuID
+DASHED_UUID = "" # user uuid, enter your dashed uuid
+apikey = "" # enter your api key
 name_link = f"https://api.hypixel.net/player?key={apikey}&name={name}" # api link for user with name(never use this one)
 uuid_link = f"https://api.hypixel.net/player?key={apikey}&uuid={UUID}" # api link for user
 skyblock_link = f"https://api.hypixel.net/skyblock/profile?key={apikey}&profile=8d020af47a2c46e0bc266dffa674a61a" ## api link for skyblock profile
